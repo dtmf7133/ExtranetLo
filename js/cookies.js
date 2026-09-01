@@ -1,5 +1,6 @@
-   var myCookieName = "cookieExtranet";
-  
+    var myCookieName = "cookieExtranet";
+    var myCookieExpire = 30; //minutes
+
     function setCookie(cname, cvalue, exmins) {
         const d = new Date();
         //d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -32,7 +33,7 @@
          $("#pwmaster").hide();
           //renew cookie
          newval = sha2;
-         setCookie(myCookieName, newval, 1); 
+         setCookie(myCookieName, newval, myCookieExpire); 
        }
     }
 
