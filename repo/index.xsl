@@ -70,7 +70,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
  
 <div id="pwmaster" style="display:none">
 
-   <input id="password" type="text" style="width:300px">&#8201;<input type="submit" value="Send" onclick="checkpw()">
+   <input id="password" type="text" style="width:300px">&#8201;<input type="submit" value="Send" onclick="checkpw()"/>
 
 </div>
 	
