@@ -42,14 +42,14 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
      
       <link rel="shortcut icon" href="./favicon.ico"/>
 	  	
-      <script src="/ExtranetLo/js/jquery-3.6.0.min.js" type="text/javascript"></script>
-      <script src="/ExtranetLo/js/searchcommon.js" type="text/javascript"></script>
-      <script src="/ExtranetLo/js/sha.js" type="text/javascript"></script>      
-      <script src="/ExtranetLo/js/cookies.js" type="text/javascript"></script>		  
+      <script src="/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+      <script src="/js/searchcommon.js" type="text/javascript"></script>
+      <script src="/js/sha.js" type="text/javascript"></script>      
+      <script src="/js/cookies.js" type="text/javascript"></script>		  
       
-      <link href="/ExtranetLo/css/style1.css" type="text/css" rel="stylesheet"/>
-      <link href="/ExtranetLo/css/style2.css" type="text/css" rel="stylesheet"/>
-      <link href="/ExtranetLo/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+      <link href="/css/style1.css" type="text/css" rel="stylesheet"/>
+      <link href="/css/style2.css" type="text/css" rel="stylesheet"/>
+      <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     
 </HEAD>
 
@@ -89,7 +89,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
       <div id="avatarLogo" style="float:left;width:300px;margin-top:0px;">
          <a>
           <xsl:attribute name="href">/repo</xsl:attribute>
-          <img id="picavatar" src="/ExtranetLo/res/avatar.png" align="middle" style="clear:;position:relative;display:inline;float:left;padding:30px;"/>
+          <img id="picavatar" src="/res/avatar.png" align="middle" style="clear:;position:relative;display:inline;float:left;padding:30px;"/>
          </a>
       </div>
       <!--
@@ -123,7 +123,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
               <a>
                  <xsl:attribute name="href"><xsl:value-of select="URI"/></xsl:attribute>
                  <xsl:attribute name="style">color:#d2454c; font-weight:900; font-style:italic;</xsl:attribute>
-                 <img src="/ExtranetLo/res/folder.png"/>&#8201;
+                 <img src="/res/folder.png"/>&#8201;
                  <xsl:value-of select="NAME"/>
               </a>
 
@@ -290,7 +290,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
      
                                             <div class="friend-entry">  
                         <a href="http://numode.eu">
-                        <div style="width:100%;border:0px solid black;"><img class="friend-ico" src="/ExtranetLo/res/logot.png" align="center"/></div>
+                        <div style="width:100%;border:0px solid black;"><img class="friend-ico" src="/res/logot.png" align="center"/></div>
                         <div style="margin-top:10px;color:#d2524c;text-decoration:none;" class="bbb">numode.eu </div>
                         </a>  
 						<br/><br/><br/><br/>
@@ -330,7 +330,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
       
       </script>
       
-      <script src="/ExtranetLo/js/common.js" type="text/javascript"></script>
+      <script src="/js/common.js" type="text/javascript"></script>
 
 <script>
 <![CDATA[
