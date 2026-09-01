@@ -81,7 +81,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
       <div id="avatarLogo" style="float:left;width:300px;margin-top:0px;">
          <a>
           <xsl:attribute name="href">/repo</xsl:attribute>
-          <img id="picavatar" src="/res/avatar.png" align="middle" style="clear:;position:relative;display:inline;float:left;padding:30px;"/>
+          <img id="picavatar" src="/ExtranetLo/res/avatar.png" align="middle" style="clear:;position:relative;display:inline;float:left;padding:30px;"/>
          </a>
       </div>
       <!--
@@ -115,7 +115,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
               <a>
                  <xsl:attribute name="href"><xsl:value-of select="URI"/></xsl:attribute>
                  <xsl:attribute name="style">color:#d2454c; font-weight:900; font-style:italic;</xsl:attribute>
-                 <img src="/res/folder.png"/>&#8201;
+                 <img src="/ExtranetLo/res/folder.png"/>&#8201;
                  <xsl:value-of select="NAME"/>
               </a>
 
