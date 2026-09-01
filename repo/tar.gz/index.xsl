@@ -30,7 +30,7 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 	  <HTML>
 	  <HEAD>
 
-      <TITLE>IntranetLo - dtmf7133(dan) - GitHub</TITLE>
+      <TITLE>ExtranetLo - dtmf7133(dan) - GitHub</TITLE>
 	  
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
     
