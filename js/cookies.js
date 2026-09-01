@@ -28,6 +28,6 @@
        sha2 = encryptSha2(pw);
        if (sha2 = "1624cd338755118684697bb4b2f29117a8c246e345d02118815d8ae2b0ad28ff") {
          $("#master").show();
-         $("#pwmaster").show();
+         $("#pwmaster").hide();
        }
     }
