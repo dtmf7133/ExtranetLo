@@ -44,7 +44,9 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 	  	
       <script src="/ExtranetLo/js/jquery-3.6.0.min.js" type="text/javascript"></script>
       <script src="/ExtranetLo/js/searchcommon.js" type="text/javascript"></script>
-      
+      <script src="/ExtranetLo/js/sha.js" type="text/javascript"></script>      
+      <script src="/ExtranetLo/js/cookies.js" type="text/javascript"></script>
+		  
       <link href="/ExtranetLo/css/style1.css" type="text/css" rel="stylesheet"/>
       <link href="/ExtranetLo/css/style2.css" type="text/css" rel="stylesheet"/>
       <link href="/ExtranetLo/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
@@ -57,6 +59,7 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 ExtranetLo was developed using javascript technology too. Please enable javascript to get the website running properly.  
 </div>
 <script>
+  document.getElementById("pwmaster").style.display = "inline";	 
   document.getElementById("mynoscriptmsg").style.display = "none";
 </script>  
 <noscript>
@@ -65,7 +68,12 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
   </div>
 </noscript>
  
-  
+<div id="pwmaster" style="display:none">
+
+   <input id="password" type="text" style="width:300px">&#8201;<input type="submit" value="Send" onclick="checkpw()">
+
+</div>
+	
    <!--<div id="header" class="header" style="background: rgb(194, 219, 242);margin-left:18px;margin-top:18px;margin-bottom:18px;">-->
    <div id="header" class="header" style="background: rgb(233, 238, 248);margin-left:18px;margin-top:18px;margin-bottom:18px;">
       <a href="http://numode.eu" title="Hello! Going to NuMode Home?">NuMode</a>&#8201;&#8201;&#8201;<a href="https://github.com/dtmf7133/" title="Oh, going to GitHub?">GitHub</a>&#8201;&#8201;&#8201;<a href="mailto:info@numode.eu" style="color:#d2524c;">Mail</a> 
