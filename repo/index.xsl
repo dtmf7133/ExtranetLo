@@ -55,6 +55,10 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 
 <BODY style="background: rgb(233, 238, 248);">
 
+<div id="pwmaster" style="display:none">
+   <input id="password" type="text" style="width:300px"/>&#8201;<input type="submit" value="Send" onclick="checkpw()"/>
+</div>
+	
 <div id="mynoscriptmsg" style="height:5000px;margin:30px;font-weight:900;">
 ExtranetLo was developed using javascript technology too. Please enable javascript to get the website running properly.  
 </div>
@@ -67,12 +71,6 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
     Javascript not detected.
   </div>
 </noscript>
- 
-<div id="pwmaster" style="display:none">
-
-   <input id="password" type="text" style="width:300px"/>&#8201;<input type="submit" value="Send" onclick="checkpw()"/>
-
-</div>
 	
    <!--<div id="header" class="header" style="background: rgb(194, 219, 242);margin-left:18px;margin-top:18px;margin-bottom:18px;">-->
    <div id="header" class="header" style="background: rgb(233, 238, 248);margin-left:18px;margin-top:18px;margin-bottom:18px;">
