@@ -283,7 +283,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
       <br/><br/><br/><br/>
     </div>
 
- <div id="friends" style="background:rgb(233, 238, 248); display:none;">    
+ <div id="friends" style="background:rgb(233, 238, 248);">    
    <div class="friends-content" style="background:rgb(233, 238, 248);"> 
      
       <div id="mynetworkTitle">Network<br/><br/>
