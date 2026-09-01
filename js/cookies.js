@@ -1,8 +1,9 @@
    var myCookieName = "cookieExtranet";
   
-    function setCookie(cname, cvalue, exdays) {
+    function setCookie(cname, cvalue, exmins) {
         const d = new Date();
-        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        //d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        d.setTime(d.getTime() + (exmins*60*1000)); 
         let expires = "expires="+ d.toUTCString();
         document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
@@ -29,5 +30,21 @@
        if (sha2 === "1624cd338755118684697bb4b2f29117a8c246e345d02118815d8ae2b0ad28ff") {
          $("#master").show();
          $("#pwmaster").hide();
+          //renew cookie
+         newval = sha2;
+         setCookie(myCookieName, newval, 1); 
        }
     }
+
+    window.addEventListener("load", function() {
+       val = getCookie(myCookieName);
+       if (val==="1624cd338755118684697bb4b2f29117a8c246e345d02118815d8ae2b0ad28ff") {
+         $("#master").show();
+         $("#pwmaster").hide();
+         //renew cookie  
+         newval = sha2;
+         setCookie(myCookieName, newval, 1); 
+         return;
+       }
+    }, true);
+ 
