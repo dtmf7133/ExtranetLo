@@ -64,7 +64,6 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 ExtranetLo was developed using javascript technology too. Please enable javascript to get the website running properly.  
 </div>
 <script>
-  document.getElementById("pwmaster").style.display = "inline";	 
   document.getElementById("mynoscriptmsg").style.display = "none";
 </script>  
 <noscript>
