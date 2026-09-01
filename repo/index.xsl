@@ -71,6 +71,8 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
     Javascript not detected.
   </div>
 </noscript>
+
+<div id="master" style="display:none">
 	
    <!--<div id="header" class="header" style="background: rgb(194, 219, 242);margin-left:18px;margin-top:18px;margin-bottom:18px;">-->
    <div id="header" class="header" style="background: rgb(233, 238, 248);margin-left:18px;margin-top:18px;margin-bottom:18px;">
@@ -308,7 +310,9 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
   <div id="footer" style="width:100%;text-align:right;">
     <span style="background:#FFFFFF; opacity:0.7;">&#8201;&#8201;get <a href="http://github.com/dtmf7133/IntranetLo" style="color:#d2524c;font-weight:900;">IntranetLo</a>. A <a href="https://numode.eu" style="color:#d2524c;font-weight:900;">NuMode</a> project.</span>&#8201;&#8201;
   </div>
-           
+
+</div>
+	
      <script>
         
         var linkt = [];
