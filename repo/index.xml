@@ -36,7 +36,7 @@ along with IntranetLo. If not, see <https://www.gnu.org/licenses/>.
   <FOLDER>
      <ID>2</ID>
      <NAME>ZIP Archive</NAME>
-     <URI>/ExtranetLo/repo/zip</URI>
+     <URI>/repo/zip</URI>
      <TYPE>subfolder</TYPE>
   </FOLDER>
   <ITEM>
