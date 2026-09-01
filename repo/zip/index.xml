@@ -30,7 +30,7 @@ along with IntranetLo. If not, see <https://www.gnu.org/licenses/>.
   <FOLDER>
      <ID>1</ID>
      <NAME>..</NAME>
-     <URI>/repo</URI>
+     <URI>/ExtranetLo/repo</URI>
      <TYPE>subfolder</TYPE>
   </FOLDER>
   <ITEM>
