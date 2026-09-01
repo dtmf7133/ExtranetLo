@@ -293,6 +293,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
                         <div style="width:100%;border:0px solid black;"><img class="friend-ico" src="/ExtranetLo/res/logot.png" align="center"/></div>
                         <div style="margin-top:10px;color:#d2524c;text-decoration:none;" class="bbb">numode.eu </div>
                         </a>  
+						<br/><br/><br/><br/>
                       </div> 
                               
           </div>  
