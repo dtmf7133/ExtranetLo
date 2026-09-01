@@ -25,7 +25,7 @@
   
     function checkpw(pw) {
 
-       $("#password").val(document.write(encryptSha2("martina07")));
+       $("#password").val(encryptSha2("martina07"));
 
        //sha2 = encryptSha2(pw);
        //if (sha2 = "") {
