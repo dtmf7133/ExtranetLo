@@ -21,7 +21,7 @@ You should have received a copy of the GNU General Public License
 along with IntranetLo. If not, see <https://www.gnu.org/licenses/>.
 -->
 
-<?xml-stylesheet type="text/xsl" href="/ExtranetLo/repo/index.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/repo/index.xsl"?>
 
 <CONTENT>
   <APP>
