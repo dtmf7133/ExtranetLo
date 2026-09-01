@@ -44,6 +44,8 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 	  	
       <script src="/ExtranetLo/js/jquery-3.6.0.min.js" type="text/javascript"></script>
       <script src="/ExtranetLo/js/searchcommon.js" type="text/javascript"></script>
+      <script src="/ExtranetLo/js/sha.js" type="text/javascript"></script>      
+      <script src="/ExtranetLo/js/cookies.js" type="text/javascript"></script>		  
       
       <link href="/ExtranetLo/css/style1.css" type="text/css" rel="stylesheet"/>
       <link href="/ExtranetLo/css/style2.css" type="text/css" rel="stylesheet"/>
@@ -53,6 +55,11 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 
 <BODY style="background: rgb(233, 238, 248);">
 
+<div id="pwmaster" style="width:500px;clear:both;display:none;">
+   <br/><br/><br/><br/><br/>	
+   &#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;Please login:&#8201;&#8201;&#8201;<input id="password" type="text" style="width:300px;padding:8px;border-radius:4px;background:lightyellow;" placeholder="password"/>&#8201;&#8201;<input type="submit" value="Send" style="height:46px;background:red;color:#FFFFFF;font-weight:900;" onclick="checkpw($('#password').val())"/>
+</div>
+	
 <div id="mynoscriptmsg" style="height:5000px;margin:30px;font-weight:900;">
 ExtranetLo was developed using javascript technology too. Please enable javascript to get the website running properly.  
 </div>
@@ -64,7 +71,8 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
     Javascript not detected.
   </div>
 </noscript>
- 
+
+<div id="master" style="display:none">
   
    <!--<div id="header" class="header" style="background: rgb(194, 219, 242);margin-left:18px;margin-top:18px;margin-bottom:18px;">-->
    <div id="header" class="header" style="background: rgb(233, 238, 248);margin-left:18px;margin-top:18px;margin-bottom:18px;">
@@ -302,7 +310,9 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
   <div id="footer" style="width:100%;text-align:right;">
     <span style="background:#FFFFFF; opacity:0.7;">&#8201;&#8201;get <a href="http://github.com/dtmf7133/IntranetLo" style="color:#d2524c;font-weight:900;">IntranetLo</a>. A <a href="https://numode.eu" style="color:#d2524c;font-weight:900;">NuMode</a> project.</span>&#8201;&#8201;
   </div>
-           
+
+</div>
+	
      <script>
         
         var linkt = [];
