@@ -55,7 +55,7 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
 
 <BODY style="background: rgb(233, 238, 248);">
 
-<div id="pwmaster" style="display:none;width:400px;margin:auto;margin-top:100px;">
+<div id="pwmaster" style="display:none;width:400px;clear:both;margin:auto;margin-top:200px;">
    Please login:&#8201;<input id="password" type="text" style="width:300px;border-radius:4px;" placeholder="password"/>&#8201;<input type="submit" value="Send" onclick="checkpw($('password').val())"/>
 </div>
 	
