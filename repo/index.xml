@@ -30,7 +30,7 @@ along with IntranetLo. If not, see <https://www.gnu.org/licenses/>.
   <FOLDER>
      <ID>1</ID>
      <NAME>TAR.GZ Archive</NAME>
-     <URI>/ExtranetLo/repo/tar.gz</URI>
+     <URI>/repo/tar.gz</URI>
      <TYPE>subfolder</TYPE>
   </FOLDER>
   <FOLDER>
