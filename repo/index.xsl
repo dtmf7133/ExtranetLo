@@ -290,7 +290,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
      
                                             <div class="friend-entry">  
                         <a href="http://numode.eu">
-                        <div style="width:100%;border:0px solid black;"><img class="friend-ico" src="/res/logot.png" align="center"/></div>
+                        <div style="width:100%;border:0px solid black;"><img class="friend-ico" src="/ExtranetLo/res/logot.png" align="center"/></div>
                         <div style="margin-top:10px;color:#d2524c;text-decoration:none;" class="bbb">numode.eu </div>
                         </a>  
                       </div> 
