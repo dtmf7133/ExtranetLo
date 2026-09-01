@@ -42,12 +42,12 @@ along with NetStrait. If not, see <https://www.gnu.org/licenses/>.
      
       <link rel="shortcut icon" href="./favicon.ico"/>
 	  	
-      <script src="/js/jquery-3.6.0.min.js" type="text/javascript"></script>
-      <script src="/js/searchcommon.js" type="text/javascript"></script>
+      <script src="/ExtranetLo/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+      <script src="/ExtranetLo/js/searchcommon.js" type="text/javascript"></script>
       
-      <link href="/css/style1.css" type="text/css" rel="stylesheet"/>
-      <link href="/css/style2.css" type="text/css" rel="stylesheet"/>
-      <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+      <link href="/ExtranetLo/css/style1.css" type="text/css" rel="stylesheet"/>
+      <link href="/ExtranetLo/css/style2.css" type="text/css" rel="stylesheet"/>
+      <link href="/ExtranetLo/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     
 </HEAD>
 
@@ -319,7 +319,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
       
       </script>
       
-      <script src="/js/common.js" type="text/javascript"></script>
+      <script src="/ExtranetLo/js/common.js" type="text/javascript"></script>
 
 <script>
 <![CDATA[
