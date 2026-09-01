@@ -21,7 +21,7 @@ You should have received a copy of the GNU General Public License
 along with IntranetLo. If not, see <https://www.gnu.org/licenses/>.
 -->
 
-<?xml-stylesheet type="text/xsl" href="/ExtranetLo/repo/zip/index.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/repo/zip/index.xsl"?>
 
 <CONTENT>
   <APP>
@@ -30,7 +30,7 @@ along with IntranetLo. If not, see <https://www.gnu.org/licenses/>.
   <FOLDER>
      <ID>1</ID>
      <NAME>..</NAME>
-     <URI>/ExtranetLo/repo</URI>
+     <URI>/repo</URI>
      <TYPE>subfolder</TYPE>
   </FOLDER>
   <ITEM>
